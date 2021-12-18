@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".GalleryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:id="@+id/fram_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image From Gallery">
+
+    </Button>
+    <Button
+        android:id="@+id/Camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image From Camera">
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/imgp"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop">
+
+    </ImageView>
+
+<Button
+    android:id="@+id/btok"
+    android:layout_marginTop="350dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ok">
+
+</Button>
+    </FrameLayout>
+
+</LinearLayout>
